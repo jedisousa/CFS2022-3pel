@@ -7,11 +7,6 @@
 #1a5c37
 #063d1e
 */
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kaushan+Script&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Kaushan+Script&family=Work+Sans:ital,wght@0,700;0,800;0,900;1,700;1,800;1,900&display=swap');
-
-
 
 @font-face{
     font-family:'Android';
@@ -59,7 +54,7 @@ header {
 
 header > h1{ 
     color:white;
-    font-family: var(--fonte-destaque);
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 3em;
     font-weight: normal;
     margin-bottom: 20px;
@@ -124,9 +119,10 @@ height: 90%;
 
 main h1{
     color: var(--cor3);
-    font-family: var(--fonte-android
-    );
-    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    align-items: center;
+    font-size: 35px;
    
 }
 main h2 { font-family: var(--fonte-android);
