@@ -93,6 +93,9 @@ nav > a:hover {
     color: var(--cor5);
     
 }
+nav > img {
+   
+}
 main{
     
     min-width: 300px; /*espansividade*/
