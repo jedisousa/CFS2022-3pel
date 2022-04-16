@@ -100,8 +100,8 @@ main{
     ;
     min-width: 300px; /*espansividade*/
     max-width: 1000px;/*espansividade*/
-    margin: auto;
-    padding: 20px;
+    margin:auto;
+    padding:20px;
     background-color:#b5b8b6;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.712);
 }
