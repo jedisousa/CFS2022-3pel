@@ -121,7 +121,7 @@ height: 90%;
 }
 
 main h1{
-    color: var(--cor3);
+    color:white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     align-items: center;
@@ -129,8 +129,8 @@ main h1{
    
 }
 main h2 { font-family:Arial, Helvetica, sans-serif;
-color: var(--cor4);
-font-weight: normal;
+color: var(--cor5);
+font-weight:bolder;
 font-size: 1.3em;
 background-image: linear-gradient(to right, var(--cor1), transparent);
 text-indent: 8px;
