@@ -137,11 +137,12 @@ text-indent: 8px;
 }
 main h3{
     font-family: Arial, Helvetica, sans-serif;
-    color: #333333;
+    color: #f8f3f3;
     font-weight: normal;
     font-size: 1.3em;
     padding: top 40px;
     text-indent: 8px;
+    text-decoration: underline;
 
 }
 
