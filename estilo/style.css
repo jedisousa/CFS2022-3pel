@@ -93,7 +93,8 @@ nav > a:hover {
     color: var(--cor5);
     
 }
-nav > img {
+nav > h3{
+    color: #f8f3f3;
    
 }
 main{
