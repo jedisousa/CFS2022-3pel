@@ -1,67 +1,101 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1º Pelotão </title>
-    <link rel="stylesheet" href="estilo/style.css">
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-<style>
-    body {
-margin:0;
-height: 100vh;
-width: 100vw;
-background: linear-gradient(287.56deg, #437de2 0%, #16f9c1 100% );
-    }
- .search-box{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform:translate(-50%,-50%);
-    background: #fff;
-    height: 50px;
-    padding:10px;
-    border-radius: 40px;
+    <title>item de busca</title>
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    }
-.search-text{
-    background: none;
-    border: 0;
-    outline: 0;
-    padding: 0;
-    font-size: 16px;
-    transition: 0.4s;
-    width: 0;
-}
-.search-btn{
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-}
-.loupe-white{
-    display: none;
-   
-}
-.search-box:hover> .search-text{
-    width: 320px;
-    padding-left: 20px;}
-
-</style>
-<body>
-    <div btn>
-    <div class="search-box">
-        <input type="text" class="search-text" placeholder="Pesquisar...">
-        <a class="search-btn">
-            <img class="loupe-blue" src="GALERIA/loupe-blue.svg" alt="" width="25px" height="25px">
-            <img class="loupe-white"src="GALERIA/loupe-white.svg" alt="" width="25px" height="25px">
-        </a>
+    <style>
     
-</div>
+        body{
+    margin:0;
+    height:100vh;
+    width:100vw;
+    background: linear-gradient(#79e4a6, #1bc296);
+        }
+    .search-box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #0a1b2d;
+        height: 40px;
+        padding: 10px;
+        border-radius: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .search-text{
+        border: none;
+        background: none;
+        outline: none;
+        padding: 0;
+        color: #f0f5fb;
+        font-size: 16px;
+        line-height: 40px;
+        width: 0;
+        transition: .4s;
+    }
+    ::-webkit-input-placeholder{
+        color: #687480;
+    }
+    .search.btn{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background: #c5d3e1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: .5s;
+        cursor: pointer;
+    }
+    .search-box:hover > .search-text {
+        width: 240px;
+        padding: 0 6px;
+    }
+    .search-box:hover >.search.btn{
+        background: #f0f5fb;
+    }
+    </style>
+    <script>
+        function executar(){
+            var text= document.getElementById('text').value;
+            var list=document.getElementById('material');
+            var adicionar=true;
+            var option=document.createElement('option');
+            for(i=0 <list.option.length;i++){
+                if(text==list.option[i].value){
+                    adicionar=false;
+                }
+            }
+            if(adicionar==true){
+                option.value=text;
+                list.appendChild(option);
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <div class="search-box">
+        <input type="text" class="search-text" placeholder="Pesquisar..." list="material" title="digite uma opção">
+    <a href="#" class="search.btn" onclick="executar()">
+        <img src="GALERIA/loupe-blue.svg" alt="Lupa" height="20" width="20">
+    </a>
+    <datalist id="material">
+        <option value="libras"></option>
+        <option value="ITIO"></option>
+        <option value="Armamento"></option>
+        <option value="Policiamento Ambiental"></option>
+        
+    </datalist>
+    
+
+
+
     
 </body>
 </html>
