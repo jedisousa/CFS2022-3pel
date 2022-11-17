@@ -10,7 +10,7 @@
             padding: 0;
             box-sizing: border-box;}
         body{
-            background-color: #5f7c8a;
+           background-color: rgb(139, 139, 234);
         }
         form{
             background-color: white;
@@ -26,6 +26,12 @@
             text-align: center;
             color: #5f7c8a;
             font-family: sans-serif;
+        }
+        form h4{
+            text-align: center;
+            color: #5f7c8a;
+            font-family: sans-serif;
+            padding: 10px;
         }
         form input[type=text],
         form input[type=password]{
@@ -60,10 +66,15 @@
 <body>
     <form>
         
-        <h3> Entrar em Contato</h3>
+        <h3>1º BATALHÃO-TIGRE</h3>
         <input id="email" type="text" nome="email" placeholder="Seu e-mail...">
         <input type="password" nome="Senha" placeholder="Sua senha...">
-        <input type="submit" nome="acao" volue="Enviar">
+        <a href="CADASTRO">
+            <h4>faça seu cadastro</h3>
+        </a>
+        <input type="submit" 
+        nome="acao" volue="Enviar">
+        
     </form>
     <script>
         var email = document.getElementById('email');
@@ -74,6 +85,8 @@
         email.addEventListener('blur',()=>{
             email.style.borderColor="#ccc"
         } );
+        
+
 
 
     </script>

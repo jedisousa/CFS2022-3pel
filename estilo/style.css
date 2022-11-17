@@ -99,7 +99,27 @@ nav > a:hover {
 }
 nav > h3{
     color: #f8f3f3;
-   
+}
+
+nav > h4 {
+    font-family: var(--fonte-padrao);
+    font-size: 3em;
+    color: white;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.739);
+
+}
+nav > p{
+    color: var(--cor1);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
 }
 main{
     
