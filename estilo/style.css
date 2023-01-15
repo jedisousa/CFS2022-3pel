@@ -48,7 +48,7 @@ main p{
     text-align: justify;
 }
 header {
-    background-image: linear-gradient(to bottom, rgb(60, 60, 195), rgb(199, 199, 76));
+    background-image: linear-gradient(to bottom, rgb(176, 176, 176), rgb(86, 86, 73));
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
@@ -56,7 +56,7 @@ header {
 
 
 header > h1{ 
-    color:white;
+    color:rgb(84, 79, 79);
     font-family: 'Times New Roman', Times, serif;
     font-size: 5em;
     font-weight: normal;
@@ -70,7 +70,7 @@ header > h3{
 header > p {
     font-family: var(--fonte-padrao);
     font-size: 3em;
-    color: white;
+    color: rgb(210, 206, 206);
     max-width: 600px;
     padding-right: 10px;
     padding-left: 10px;
