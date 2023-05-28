@@ -48,7 +48,7 @@ main p{
     text-align: justify;
 }
 header {
-    background-image: linear-gradient(to bottom, rgb(176, 176, 176), rgb(86, 86, 73));
+   background-image: linear-gradient(to bottom, rgb(212, 180, 117), rgb(173, 66, 30));
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
@@ -56,7 +56,8 @@ header {
 
 
 header > h1{ 
-    color:rgb(84, 79, 79);
+
+   color:rgb(84, 79, 79);
     font-family: 'Times New Roman', Times, serif;
     font-size: 5em;
     font-weight: normal;
@@ -69,14 +70,17 @@ header > h3{
 }
 header > p {
     font-family: var(--fonte-padrao);
-    font-size: 3em;
-    color: rgb(210, 206, 206);
+    font-size: 2em;
+    color: rgb(210, 210, 206);
     max-width: 600px;
     padding-right: 10px;
     padding-left: 10px;
     padding-bottom: 50px;
     margin: auto;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.739);
+    /***text-shadow: 2px 2px 0px rgba(238, 205, 73, 0.739);***/
+}
+header>img{
+
 }
 nav{ 
     background-color: var(--cor5);
